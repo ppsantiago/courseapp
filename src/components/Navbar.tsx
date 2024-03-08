@@ -17,7 +17,7 @@ const Navbar = () => {
   const profileImage: string | any = session?.user?.image;
   console.log(profileImage);
   return (
-    <nav className="flex justify-between items-center px-10 py-6 bg-gradient-to-r from-neutral-900 to-neutral-700 mb-6 ">
+    <nav className="flex justify-between items-center px-10 py-6 bg-gradient-to-r from-neutral-900 to-neutral-700 ">
       <Link href="/">
         <h1 className="text-xl text-back">Course App</h1>
       </Link>
